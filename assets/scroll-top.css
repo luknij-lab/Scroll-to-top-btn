@@ -1,0 +1,40 @@
+html{
+	scroll-behavior: smooth;
+}
+.btn-top{
+	z-index: 99999;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	border: 2px solid #8ac33f;
+	padding: 0;
+	margin: 0;
+	visibility: hidden;
+	opacity: 0;
+	background-color: #404040;
+	cursor: pointer;
+	transition: 0.3s ease-out;
+}
+.arrow-up{
+	display: block;
+	margin: 0 auto;
+	width: 35px;
+	height: 35px;
+	clip-path: polygon(10% 60%, 20% 70%, 50% 40%, 80% 70%, 90% 60%, 50% 20%);
+	background: #8ac33f;  
+	transition: 0.3s ease-out;
+	transform: rotate(-135deg);
+}
+
+/* hover behavior */
+.btn-top:hover{
+	border: 2px solid #404040;
+	background-color: #8ac33f;
+	transform: rotate(-45deg);
+}
+.btn-top:hover .arrow-up{
+	background: #404040;
+	transform: rotate(45deg);
+}
