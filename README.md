@@ -3,6 +3,7 @@ A button that scrolls the page to the very top.
 
 ## Contents
 
+```
 theme-child/
 ├── functions.php
 ├── inc/
@@ -11,6 +12,7 @@ theme-child/
     └── scroll-top/
         ├── scroll-top.css
         └── scroll-top.js
+```
 
 ## Explanation
 
@@ -55,4 +57,4 @@ function scroll_top_button_markup() {
 add_action('wp_footer', 'scroll_top_button_markup');
 ```
 
-4. Gotowe – przycisk pojawi się na stronie i będzie działał dzięki plikom scroll-top.css oraz scroll-top.js
+4. Done – The button will appear on the website and will be working thanks to scroll-top.css and scroll-top.js files.
