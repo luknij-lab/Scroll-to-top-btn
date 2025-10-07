@@ -1,5 +1,12 @@
-# Scroll-to-top-btn
-A button that scrolls the page to the very top.
+# Scroll to Top Button for Wordpress
+A lightweight and simple Scroll to Top button for WordPress. This module adds an elegant, customizable button for quickly returning to the top of the page.
+
+Designed with performance and simplicity in mind, it requires no external libraries. CSS and JavaScript code are minimized for fast loading and no impact on Core Web Vitals.
+
+<div align="center">
+	<img src="/media/scroll-top.gif" alt="Button normal state" />
+	<img src="/media/scroll-top-hover.gif" alt="Button hover state" />
+</div>
 
 ## Contents
 
